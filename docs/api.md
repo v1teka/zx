@@ -177,7 +177,7 @@ await sleep(1000)
 
 ## `echo()`
 
-A `console.log()` alternative which can take [ProcessOutput](#processoutput).
+A `console.log()` alternative which can take [ProcessOutput](./process-output.md).
 
 ```js
 const branch = await $`git branch --show-current`
