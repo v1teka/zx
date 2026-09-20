@@ -95,7 +95,7 @@ Defaults to `process.env`.
 
 Specifies a current working directory of all processes created with the `$`.
 
-The [cd()](#cd) func changes only `process.cwd()` and if no `$.cwd` specified,
+The [cd()](./api.md#cd) func changes only `process.cwd()` and if no `$.cwd` specified,
 all `$` processes use `process.cwd()` by default (same as `spawn` behavior).
 
 ## `$.log`
